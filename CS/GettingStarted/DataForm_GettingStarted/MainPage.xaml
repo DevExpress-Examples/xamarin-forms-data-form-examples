@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:dxdf="http://schemas.devexpress.com/xamarin/2014/forms/dataform"
+             x:Class="DataForm_GettingStarted.MainPage"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             ios:Page.UseSafeArea="True">
+    <ScrollView>
+        <StackLayout>
+            <dxdf:DataFormView x:Name="dataForm"
+                               EditorLabelWidth="40"
+                               EditorLabelColor="Gray"
+                               GroupHeaderBackgroundColor="#e9e9e9"
+                               GroupHeaderTextColor="#f05b41"
+                               ValidationMode="LostFocus"
+                               ValidateProperty="dataForm_ValidateProperty"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
