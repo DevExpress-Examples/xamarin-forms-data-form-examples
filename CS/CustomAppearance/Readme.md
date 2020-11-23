@@ -1,6 +1,16 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [EmployeeInfo.cs](./DataForm_CustomAppearance/EmployeeInfo.cs)
+* [EmployeeRepository.cs](./DataForm_CustomAppearance/EmployeeRepository.cs)
+* [MainPage.xaml](./DataForm_CustomAppearance/MainPage.xaml)
+* [MainPage.xaml.cs](./DataForm_CustomAppearance/MainPage.xaml.cs)
+<!-- default file list end -->
+# Add a Custom Editor and Change Data Form Appearance
+
 This example demonstrates how to: 
-- [add a custom editor](https://docs.devexpress.com/MobileControls/401776/xamarin-forms/data-form/examples/data-form-custom-editor)
-- [customize data form appearance](https://docs.devexpress.com/MobileControls/401766/xamarin-forms/data-form/examples/data-form-custom-appearance)
+- [create a custom editor on a data form](https://docs.devexpress.com/MobileControls/401776/xamarin-forms/data-form/examples/data-form-custom-editor)
+- [customize the data form's appearance](https://docs.devexpress.com/MobileControls/401766/xamarin-forms/data-form/examples/data-form-custom-appearance)
 
 <img src="./img/data-form-custom-editor.png" height="75%" />
 
