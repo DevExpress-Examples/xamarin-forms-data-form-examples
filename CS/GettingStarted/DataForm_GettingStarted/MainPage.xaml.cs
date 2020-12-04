@@ -4,6 +4,7 @@ using DevExpress.XamarinForms.DataForm;
 namespace DataForm_GettingStarted {
     public partial class MainPage : ContentPage {
         public MainPage() {
+            DevExpress.XamarinForms.DataForm.Initializer.Init();
             InitializeComponent();
             dataForm.DataObject = new PersonalInfo();
         }

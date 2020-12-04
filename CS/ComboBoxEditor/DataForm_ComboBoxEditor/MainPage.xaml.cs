@@ -52,6 +52,7 @@ namespace DataForm_ComboBoxEditor {
 
     public partial class MainPage : ContentPage {
         public MainPage() {
+            DevExpress.XamarinForms.DataForm.Initializer.Init();
             InitializeComponent();
             dataForm.DataObject = new EmployeeInfo();
             dataForm.PickerSourceProvider = new ComboBoxDataProvider();

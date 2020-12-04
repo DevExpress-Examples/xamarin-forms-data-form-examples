@@ -23,7 +23,7 @@ namespace DataForm_CustomAppearance.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            DevExpress.XamarinForms.Editors.Editors.Init();
+            DevExpress.XamarinForms.DataForm.iOS.Initializer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
