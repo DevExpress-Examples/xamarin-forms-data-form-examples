@@ -9,7 +9,7 @@ Examples:
 - [Add a Custom Editor and Change Data Form Appearance](./CS/CustomAppearance) 
 - [Specify Combo Box Items](./CS/ComboBoxEditor)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=xamarin-forms-data-form-examples&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=xamarin-forms-data-form-examples&~~~was_helpful=no)
 
